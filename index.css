@@ -24,10 +24,11 @@ a {
 }
 img {
     width: 100%;
-    opacity: 0,6;
-    transition: 0,3s;
+    transition: 0.5s ease;
+    transform: 0,5s ease;
 }
-img:hover {opacity: 1;}
+img:hover {
+    transform: scale(1.1);}
 .kartic {
     background-color: grey;
     margin: 20px;
